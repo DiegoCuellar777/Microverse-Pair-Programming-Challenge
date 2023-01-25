@@ -1,2 +1,5 @@
 # Microverse-Pair-Programming-Challenge
-Pair programming Cosing Challenge
+Pair programming Coding Challenge
+
+
+
