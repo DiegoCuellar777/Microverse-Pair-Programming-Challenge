@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,3 +13,98 @@
     </main>
 </body>
 </html>
+=======
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Microverse Pair Programming</title>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Diego-Jonathan Survey form</h1>
+      <p id="description">
+        Kindly fill in your right details to book an appointment for Survey
+      </p>
+
+      <!-- FORM -->
+      <form id="survey-form">
+        <div>
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" placeholder="Enter name">
+        </div>
+
+
+        <div>
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" required placeholder="enter email">
+        </div>
+
+
+        <div>
+            <label for="number" id="number-label">number</label>
+            <input type="number" id="number" required min="6" max="10" placeholder="number">
+        </div>
+
+
+        <div>
+            <label for="Gender">Gender</label>
+            <select name="dropDown" id="Gender">
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+        </div>
+
+        <div>
+            <h3>Select your favorite programming language</h3>
+            <div>
+                <input type="radio" name="coding_language" id="javascript" >
+                <label for="javascript">Javascript</label>
+            </div>
+
+            <div>
+                <input type="radio" name="coding_language" id="java" >
+                <label for="java">Java</label>
+            </div>
+
+            <div>
+                <input type="radio" name="coding_language" id="python" >
+                <label for="python">Python</label>
+            </div>
+
+            <div>
+                <input type="radio" name="coding_language" id="c++" >
+                <label for="c++">C++</label>
+            </div>
+        </div>
+
+        <div>
+            <h3>kindly check your favorite football club</h3>
+            <div>
+                <input type="checkbox" name="coding_language" id="Arsenal" >
+                <label for="Arsenal">Arsenal</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="coding_language" id="Chelsea" >
+                <label for="Chelsea">Chelsea</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="coding_language" id="Manchester United" >
+                <label for="Manchester United">Manchester United</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="coding_language" id="Manchester City" >
+                <label for="Manchester City">Manchester City</label>
+            </div>
+        </div>
+        <button>submit</button>
+
+      </form>
+    </main>
+  </body>
+</html>
+>>>>>>> origin/features
